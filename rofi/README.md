@@ -1,6 +1,6 @@
 ## Rofi Srcery theme
 
-Rofi theme created to work with [Srcery colors](https://github.com/roosta/vim-srcery). To use it include this in your rofi config:
+Rofi theme created to work with [Srcery colors](https://github.com/srcery-colors/srcery-vim). To use it include this in your rofi config:
 ```conf
 rofi.theme: ~/path/to/srcery.rasi
 ```
@@ -19,4 +19,4 @@ rofi.font: Iosevka 24px
 
 ## Screenshot
 
-![rofi](../../assets/rofi.png)
+![rofi](../assets/rofi.png)
