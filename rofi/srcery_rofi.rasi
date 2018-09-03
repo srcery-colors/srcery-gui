@@ -48,7 +48,7 @@
   highlight:     bold #E02C6D;
 
   selected-normal-foreground:  @black;
-  selected-normal-background:  @white;
+  selected-normal-background:  @brightwhite;
 
   normal-foreground:           @brightwhite;
   normal-background:           @brightblack;
