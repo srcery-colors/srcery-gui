@@ -1,7 +1,5 @@
-set $mod Mod4
-
 set $black #1C1B19
-set $brightblack #2D2C29
+set $brightblack #918175
 
 set $red #EF2F27
 set $brightred #F75341
@@ -21,7 +19,7 @@ set $brightmagenta #FF5C8F
 set $cyan #0AAEB3
 set $brightcyan #53FDE9
 
-set $white #918175
+set $white #D0BFA1
 set $brightwhite #FCE8C3
 
 set $orange #D75F00
@@ -33,25 +31,25 @@ set $xgrey3 #3A3A3A
 set $xgrey4 #444444
 set $xgrey5 #4E4E4E
 
-# Colors                border  backgr  text          indicator child_border
-client.focused          $xgrey3 $xgrey3 $brightyellow $yellow   $xgrey3
-client.focused_inactive $xgrey3 $xgrey1 $yellow       $xgrey3   $xgrey3
-client.unfocused        $xgrey3 $xgrey1 $white        $xgrey1   $xgrey1
-client.urgent           $red    $xgrey1 $red          $red      $red
-client.placeholder      $xgrey1 $xgrey1 $white        $xgrey1   $xgrey1
+# Colors                border        backgr  text         indicator child_border
+client.focused          $brightyellow $xgrey3 $yellow      $magenta  $yellow
+client.focused_inactive $xgrey5       $xgrey3 $brightblack $xgrey3   $xgrey5
+client.unfocused        $xgrey1       $xgrey1 $brightblack $xgrey1   $xgrey1
+client.urgent           $red          $xgrey1 $red         $red      $red
+client.placeholder      $xgrey1       $xgrey1 $brightblack $xgrey1   $xgrey1
 client.background       $black
 
 bar {
-    colors {
-        background $black
-        statusline $white
-        separator  $blue
+  colors {
+    background $black
+    statusline $white
+    separator  $white
 
-        # Colors           Border        Background   Text
-        focused_workspace  $xgrey3       $xgrey3      $yellow
-        active_workspace   $xgrey3       $xgrey3      $white
-        inactive_workspace $xgrey3       $xgrey1      $white
-        urgent_workspace   $red          $red         $black
-        binding_mode       $magenta      $magenta     $black
+    # Colors           Border        Background   Text
+    focused_workspace  $yellow       $xgrey3      $yellow
+    active_workspace   $xgrey3       $xgrey3      $brightblack
+    inactive_workspace $xgrey3       $xgrey1      $brightblack
+    urgent_workspace   $red          $red         $black
+    binding_mode       $magenta      $magenta     $brightwhite
     }
 }
