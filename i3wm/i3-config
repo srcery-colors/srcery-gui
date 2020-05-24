@@ -1,3 +1,5 @@
+set $mod Mod4
+
 set $black #1C1B19
 set $brightblack #2D2C29
 
@@ -32,8 +34,8 @@ set $xgrey4 #444444
 set $xgrey5 #4E4E4E
 
 # Colors                border  backgr  text          indicator child_border
-client.focused          $xgrey3 $xgrey3 $brightorange $orange   $xgrey3
-client.focused_inactive $xgrey3 $xgrey1 $orange       $xgrey3   $xgrey3
+client.focused          $xgrey3 $xgrey3 $brightyellow $yellow   $xgrey3
+client.focused_inactive $xgrey3 $xgrey1 $yellow       $xgrey3   $xgrey3
 client.unfocused        $xgrey3 $xgrey1 $white        $xgrey1   $xgrey1
 client.urgent           $red    $xgrey1 $red          $red      $red
 client.placeholder      $xgrey1 $xgrey1 $white        $xgrey1   $xgrey1
@@ -41,16 +43,15 @@ client.background       $black
 
 bar {
     colors {
-
         background $black
         statusline $white
         separator  $blue
 
         # Colors           Border        Background   Text
-        focused_workspace  $xgrey3       $xgrey3      $orange
+        focused_workspace  $xgrey3       $xgrey3      $yellow
         active_workspace   $xgrey3       $xgrey3      $white
         inactive_workspace $xgrey3       $xgrey1      $white
         urgent_workspace   $red          $red         $black
-        binding_mode       $green        $green       $black
+        binding_mode       $magenta      $magenta     $black
     }
 }
