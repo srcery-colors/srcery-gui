@@ -54,5 +54,5 @@ bar {
     inactive_workspace $xgray3       $xgray1      $bright_black
     urgent_workspace   $red          $red         $black
     binding_mode       $magenta      $magenta     $bright_white
-    }
+  }
 }
