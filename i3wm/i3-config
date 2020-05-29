@@ -34,7 +34,7 @@ set $xgray5 #4E4E4E
 set $hard_black #121212
 
 
-# Colors                border        backgr      text          indicator child_border
+# Colors                border        background  text          indicator child_border
 client.focused          $bright_black $xgray3     $yellow       $yellow   $bright_black
 client.focused_inactive $xgray3       $xgray3     $bright_black $xgray3   $xgray3
 client.unfocused        $xgray1       $xgray1     $bright_black $xgray1   $xgray1
@@ -48,7 +48,7 @@ bar {
     statusline $white
     separator  $white
 
-    # Colors           Border        Background   Text
+    # Colors           border        background   text
     focused_workspace  $bright_black $xgray3      $yellow
     active_workspace   $xgray3       $xgray3      $bright_black
     inactive_workspace $xgray3       $xgray1      $bright_black
