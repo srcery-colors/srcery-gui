@@ -1,5 +1,7 @@
 # Polybar color scheme
 
+![Example of a bar using this colorscheme](./example.jpg)
+
 To use copy to `$HOME/.config/polybar/srcery` and include this file in your polybar config.
 
 ```ini
