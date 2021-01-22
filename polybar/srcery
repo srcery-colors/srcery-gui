@@ -43,11 +43,3 @@ format-foreground = ${srcery-colors.white}
 format-background = ${srcery-colors.black}
 format-prefix-foreground = ${srcery-colors.white}
 format-prefix-background = ${srcery-colors.black}
-
-[module/bspwm-colors]
-inherit=module/colors
-label-focused-background = ${srcery-colors.xgray3}
-label-focused-foreground = ${srcery-colors.yellow}
-label-urgent-background = ${srcery-colors.red}
-label-urgent-foreground = ${srcery-colors.black}
-label-empty-foreground = ${srcery-colors.bright_black}
