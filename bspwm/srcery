@@ -1,29 +1,29 @@
 black="#1C1B19"
-brightblack="#918175"
+bright_black="#918175"
 
 red="#EF2F27"
-brightred="#F75341"
+bright_red="#F75341"
 
 green="#519F50"
-brightgreen="#98BC37"
+bright_green="#98BC37"
 
 yellow="#FBB829"
-brightyellow="#FED06E"
+bright_yellow="#FED06E"
 
 blue="#2C78BF"
-brightblue="#68A8E4"
+bright_blue="#68A8E4"
 
 magenta="#E02C6D"
-brightmagenta="#FF5C8F"
+bright_magenta="#FF5C8F"
 
 cyan="#0AAEB3"
-brightcyan="#53FDE9"
+bright_cyan="#53FDE9"
 
 white="#D0BFA1"
-brightwhite="#FCE8C3"
+bright_white="#FCE8C3"
 
 orange="#D75F00"
-brightorange="#FF8700"
+bright_orange="#FF8700"
 
 xgray1="#262626"
 xgray2="#303030"
@@ -33,6 +33,6 @@ xgray5="#4E4E4E"
 
 bspc config normal_border_color "$xgray1"
 bspc config active_border_color "$xgray3"
-bspc config focused_border_color "$brightblack"
+bspc config focused_border_color "$bright_black"
 bspc config normal_border_color "$xgray3"
 bspc config presel_feedback_color "$magenta"
