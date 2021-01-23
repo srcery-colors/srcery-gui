@@ -1,0 +1,6 @@
+# Add to zathurarc
+# Author: https://github.com/Charsinic
+
+set recolor true
+set recolor-lightcolor \#1C1B19
+set recolor-darkcolor  \#D0BFA1
