@@ -1,20 +1,33 @@
 ## Rofi Srcery theme
 
-Rofi theme created to work with [Srcery colors](https://github.com/srcery-colors/srcery-vim). To use it include this in your rofi config:
+Rofi theme created to work with [Srcery colors](https://github.com/srcery-colors/srcery-vim). To use it include this in your rofi config (outside the configuration block, at the end of the config.rasi file):
 ```conf
-rofi.theme: ~/path/to/srcery.rasi
+@theme "~/path/to/srcery.rasi"
+```
+or set the theme property inside the configuration block:
+```conf
+configuration {
+  /* Other properties omitted. */
+
+  theme: "~/path/to/srcery.rasi";
+
+  /* Other properties omitted. */
+}
 ```
 For a full working rofi config see [here](https://github.com/roosta/etc/blob/master/templates/rofi/config.rofi). Note that this is just a template and some values are added per host and would look something like this:
 ```conf
-! set the offset from top to be the height of my appbar at this host
-rofi.yoffset: 34
+configuration {
 
-! The lines needed to fill the screen, depends on font-size and DPI settings
-rofi.lines: 62
+  /* set the offset from top to be the height of my appbar at this host */
+  yoffset: 34;
 
-! My font of choice, rofi does not respect DPI settings.
-rofi.font: Iosevka 24px
+  /* The lines needed to fill the screen, depends on font-size and DPI settings */
+  lines: 62;
 
+  /* My font of choice, rofi does not respect DPI settings. */
+  font: "Iosevka 24px";
+
+}
 ```
 
 ## Screenshot
