@@ -7,7 +7,7 @@
  * File: srcery.rasi
  * Desc: Srcery theme for Rofi
  * Author: Daniel Berg <mail@roosta.sh>
- * Modified: 2018-05-11
+ * Modified: 2021-09-29
  */
 
 * {
@@ -116,6 +116,10 @@ element {
   padding: 1px ;
 }
 
+element-text {
+  background-color: inherit;
+  text-color:       inherit;
+}
 element normal.normal {
   background-color: @normal-background;
   text-color:       @normal-foreground;
