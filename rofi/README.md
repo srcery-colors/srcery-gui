@@ -4,16 +4,6 @@ Rofi theme created to work with [Srcery colors](https://github.com/srcery-colors
 ```conf
 @theme "~/path/to/srcery.rasi"
 ```
-or set the theme property inside the configuration block:
-```conf
-configuration {
-  /* Other properties omitted. */
-
-  theme: "~/path/to/srcery.rasi";
-
-  /* Other properties omitted. */
-}
-```
 For a full working rofi config see [here](https://github.com/roosta/etc/blob/master/templates/rofi/config.rofi). Note that this is just a template and some values are added per host and would look something like this:
 ```conf
 configuration {
@@ -27,6 +17,11 @@ configuration {
   /* My font of choice, rofi does not respect DPI settings. */
   font: "Iosevka 24px";
 
+}
+
+window {
+  width: 768px;
+  height: 2126px;
 }
 ```
 
