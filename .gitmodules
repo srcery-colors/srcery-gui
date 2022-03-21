@@ -1,0 +1,3 @@
+[submodule "intellij-idea/srcery-intellij"]
+	path = intellij-idea/srcery-intellij
+	url = https://github.com/nils-degroot/srcery-intellij
