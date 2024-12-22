@@ -81,9 +81,9 @@
 }
 
 window {
-  border:     2;
+  border:     1;
   foreground: @magenta;
-  padding:    4;
+  padding:    2;
   background: @black;
 }
 
@@ -93,8 +93,8 @@ mainbox {
 }
 
 message {
-  border:  2px 0px 0px ;
-  padding: 2px 0px 0px ;
+  border:  1px 0px 0px ;
+  padding: 1px 0px 0px ;
 }
 
 textbox {
@@ -104,11 +104,11 @@ textbox {
 
 listview {
   fixed-height: 1;
-  border:       2px dash 0px 0px ;
+  border:       1px dash 0px 0px ;
   border-color: @separatorcolor;
-  spacing:      2px ;
+  spacing:      1px ;
   scrollbar:    false;
-  padding:      2px 0px 0px ;
+  padding:      1px 0px 0px ;
 }
 
 element {
@@ -166,15 +166,15 @@ element alternate.active {
 }
 
 scrollbar {
-  width:        4px ;
+  width:        2px ;
   border:       0;
   handle-color: @normal-foreground;
-  handle-width: 8px ;
+  handle-width: 4px ;
   padding:      0;
 }
 
 sidebar {
-  border:       2px dash 0px 0px ;
+  border:       1px dash 0px 0px ;
   border-color: @separatorcolor;
 }
 
