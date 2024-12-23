@@ -2,12 +2,12 @@
 /*
  * Rofi color theme
  * Based on srcery color scheme for Vim
- * https://github.com/roosta/vim-srcery
+ * https://github.com/srcery-colors/srcery-vim
  *
  * File: srcery.rasi
  * Desc: Srcery theme for Rofi
  * Author: Daniel Berg <mail@roosta.sh>
- * Modified: 2021-09-29
+ * Modified: 2024-12-23
  */
 
 * {
