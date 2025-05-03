@@ -27,4 +27,4 @@ window {
 
 ## Screenshot
 
-![rofi](../assets/rofi.png)
+![rofi](https://raw.githubusercontent.com/srcery-colors/srcery-assets/refs/heads/master/gui/rofi.png)

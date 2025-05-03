@@ -5,4 +5,4 @@ following to your qutebrowser configuration.
 config.source("srcery.py")
 ```
 
-![Qutebrowser screenshot](../assets/qutebrowser.png)
+![Qutebrowser screenshot](https://raw.githubusercontent.com/srcery-colors/srcery-assets/refs/heads/master/gui/qutebrowser.png)

@@ -43,4 +43,4 @@ if you don't have a default **rc.lua**, you probably know what to do to
 make sure Awesome loads the theme.
 Finally reload Awesome (Ctrl + Modkey + R - by default).
 
-![awesome](../assets/awesome.png)
+![awesome](https://raw.githubusercontent.com/srcery-colors/srcery-assets/refs/heads/master/gui/awesome.png)
