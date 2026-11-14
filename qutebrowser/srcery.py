@@ -4,8 +4,8 @@
 #   - the srcery colorscheme (https://github.com/srcery-colors/srcery-vim)
 #   - Gruvbox dark hard qutebrowser theme by Florian Bruhin <me@the-compiler.org>
 
-bg0_hard = "#121212"
-bg0_soft = "#1c1b19"
+bg0_hard = "#0e0d0c"
+bg0_soft = "#121110"
 bg0_normal = bg0_soft
 
 bg0 = bg0_normal
@@ -16,7 +16,7 @@ bg4 = "#4543ee"
 
 fg0 = "#fce8c3"
 fg1 = "#caba9c"
-fg2 = "#baa67f"
+fg2 = "#c5b088"
 fg3 = "#968566"
 fg4 = "#776a52"
 
@@ -26,7 +26,7 @@ bright_yellow   = "#fed06e"
 bright_blue     = "#68a8e4"
 bright_magenta  = "#ff5c8f"
 bright_cyan     = "#2be4d0"
-bright_gray     = "#585858"
+bright_gray     = "#504d47"
 bright_orange   = "#ff8700"
 
 dark_red        = "#ef2f27"
@@ -35,15 +35,15 @@ dark_yellow     = "#fbb829"
 dark_blue       = "#2c78bf"
 dark_magenta    = "#e02c6d"
 dark_cyan       = "#0aaeb3"
-dark_gray       = "#303030"
+dark_gray       = "#262522"
 dark_orange     = "#ff5f00"
 
-xgray1 = "#121212"
-xgray2 = "#262626"
-xgray3 = "#3a3a3a"
-xgray4 = "#444444"
-xgray5 = "#4e4e4e"
-xgray6 = "#585858"
+xgray1 = "#0e0d0c"
+xgray2 = "#1c1b19"
+xgray3 = "#312f2c"
+xgray4 = "#3b3935"
+xgray5 = "#45433e"
+xgray6 = "#504d47"
 
 ### Completion
 

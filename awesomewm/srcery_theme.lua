@@ -1,6 +1,6 @@
 -- Srcery colors.
 local srcery_colors = {}
-srcery_colors.black = "#1C1B19"
+srcery_colors.black = "#121110"
 srcery_colors.red = "#EF2F27"
 srcery_colors.green = "#519F50"
 srcery_colors.yellow = "#FBB829"
@@ -8,7 +8,7 @@ srcery_colors.blue = "#2C78BF"
 srcery_colors.magenta = "#E02C6D"
 srcery_colors.cyan = "#0AAEB3"
 srcery_colors.white = "#D0BFA1"
-srcery_colors.brightblack = "#918175"
+srcery_colors.brightblack = "#917e6b"
 srcery_colors.brightred = "#F75341"
 srcery_colors.brightgreen = "#98BC37"
 srcery_colors.brightyellow = "#FED06E"
