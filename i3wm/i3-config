@@ -17,12 +17,12 @@ set $magenta #E02C6D
 set $bright_magenta #FF5C8F
 
 set $cyan #0AAEB3
-set $bright_cyan #53FDE9
+set $bright_cyan #2BE4D0
 
-set $white #D0BFA1
+set $white #C5B088
 set $bright_white #FCE8C3
 
-set $orange #D75F00
+set $orange #FF5F00
 set $bright_orange #FF8700
 
 set $xgray1 #1c1b19

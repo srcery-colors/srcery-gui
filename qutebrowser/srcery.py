@@ -12,7 +12,7 @@ bg0 = bg0_normal
 bg1 = "#262522"
 bg2 = "#312f2c"
 bg3 = "#3b3935"
-bg4 = "#4543ee"
+bg4 = "#45433e"
 
 fg0 = "#fce8c3"
 fg1 = "#caba9c"

@@ -18,7 +18,7 @@ set completion-highlight-bg     \#68A8E4
 set completion-highlight-fg     \#121110
 
 set default-bg                  \#121110
-set default-fg                  \#D0BFA1
+set default-fg                  \#C5B088
 
 set inputbar-bg                 \#1c1b19
 set inputbar-fg                 \#FCE8C3
@@ -29,14 +29,14 @@ set notification-warning-bg     \#121110
 set notification-warning-fg     \#FBB829
 
 set tabbar-bg                   \#121110
-set tabbar-fg                   \#D0BFA1
+set tabbar-fg                   \#C5B088
 set tabbar-focus-bg             \#121110
 set tabbar-focus-fg             \#98BC37
 
 set statusbar-bg                \#121110
-set statusbar-fg                \#D0BFA1
+set statusbar-fg                \#C5B088
 
 set index-bg                    \#1c1b19
-set index-fg                    \#D0BFA1
+set index-fg                    \#C5B088
 set index-active-bg             \#FED06E
 set index-active-fg             \#121110
