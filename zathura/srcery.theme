@@ -4,39 +4,39 @@
 
 ## Zathura config
 set recolor true
-set recolor-lightcolor          \#1C1B19
-set recolor-darkcolor           \#baa67f
+set recolor-lightcolor          \#121110
+set recolor-darkcolor           \#c5b088
 set highlight-color             \#f75341
 set highlight-active-color      \#ef2f27
 
 ## Girara config
-set completion-bg               \#1C1B19
+set completion-bg               \#121110
 set completion-fg               \#FCE8C3
-set completion-group-bg         \#303030
+set completion-group-bg         \#262522
 set completion-group-fg         \#FCE8C3
 set completion-highlight-bg     \#68A8E4
-set completion-highlight-fg     \#1C1B19
+set completion-highlight-fg     \#121110
 
-set default-bg                  \#1C1B19
-set default-fg                  \#D0BFA1
+set default-bg                  \#121110
+set default-fg                  \#C5B088
 
-set inputbar-bg                 \#262626
+set inputbar-bg                 \#1c1b19
 set inputbar-fg                 \#FCE8C3
 
-set notification-error-bg       \#1C1B19
+set notification-error-bg       \#121110
 set notification-error-fg       \#FF5F00
-set notification-warning-bg     \#1C1B19
+set notification-warning-bg     \#121110
 set notification-warning-fg     \#FBB829
 
-set tabbar-bg                   \#1C1B19
-set tabbar-fg                   \#D0BFA1
-set tabbar-focus-bg             \#1C1B19
+set tabbar-bg                   \#121110
+set tabbar-fg                   \#C5B088
+set tabbar-focus-bg             \#121110
 set tabbar-focus-fg             \#98BC37
 
-set statusbar-bg                \#1C1B19
-set statusbar-fg                \#D0BFA1
+set statusbar-bg                \#121110
+set statusbar-fg                \#C5B088
 
-set index-bg                    \#262626
-set index-fg                    \#D0BFA1
+set index-bg                    \#1c1b19
+set index-fg                    \#C5B088
 set index-active-bg             \#FED06E
-set index-active-fg             \#1C1B19
+set index-active-fg             \#121110
