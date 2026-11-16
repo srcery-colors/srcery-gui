@@ -13,7 +13,7 @@ comment out the old theme settings (-- means comment in lua):
 -- theme.bg_normal     = "#222222"
 -- theme.bg_focus      = "#535d6c"
 -- theme.bg_urgent     = "#ff0000"
--- theme.bg_minimize   = "#3b3935"
+-- theme.bg_minimize   = "#444444"
 -- theme.bg_systray    = theme.bg_normal
 -- 
 -- theme.fg_normal     = "#aaaaaa"
