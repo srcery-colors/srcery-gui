@@ -3,6 +3,7 @@
 # Based on:
 #   - the srcery colorscheme (https://github.com/srcery-colors/srcery-vim)
 #   - Gruvbox dark hard qutebrowser theme by Florian Bruhin <me@the-compiler.org>
+#     (MIT License, see LICENSE-gruvbox in this folder)
 
 bg0_hard = "#0e0d0c"
 bg0_soft = "#121110"
