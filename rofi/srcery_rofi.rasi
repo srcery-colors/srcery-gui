@@ -21,9 +21,9 @@
   selected-normal-background:  @brightwhite;
 
   normal-foreground:           @brightwhite;
-  normal-background:           @xgray2;
+  normal-background:           @gray2;
 
-  alternate-normal-background: @xgray1;
+  alternate-normal-background: @gray1;
   alternate-normal-foreground: @brightwhite;
 
   urgent-foreground:           @black;
@@ -36,7 +36,7 @@
   alternate-urgent-foreground: @urgent-foreground;
 
   active-foreground:           @yellow;
-  active-background:           @xgray2;
+  active-background:           @gray2;
 
   selected-active-foreground:  @black;
   selected-active-background:  @yellow;
