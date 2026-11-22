@@ -31,7 +31,6 @@ xgray3="#312F2C"
 xgray4="#3b3935"
 xgray5="#45433E"
 
-bspc config normal_border_color "$xgray1"
 bspc config active_border_color "$xgray3"
 bspc config focused_border_color "$bright_black"
 bspc config normal_border_color "$xgray3"
